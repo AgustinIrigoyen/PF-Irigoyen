@@ -291,8 +291,11 @@ section h3 footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: start;
-        
-
     }
 }
 
+@media (min-width: 1200px) {
+    .redes div ul li {
+        margin-bottom: 25px;
+    } 
+}
