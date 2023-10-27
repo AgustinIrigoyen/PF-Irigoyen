@@ -224,6 +224,16 @@ h2 {
        object-fit: cover;
   }
 }
+.slick-next.slick-arrow {
+  background-color: rgba(0, 0, 0, 0.552);
+  border-radius: 10px;
+}
+
+.slick-prev.slick-arrow {
+  background-color: rgba(0, 0, 0, 0.552);
+  border-radius: 10px;
+}
+
 /*----FOOTER----*/
 footer {
   background-color: rgba(200, 36, 36, 0.852);
