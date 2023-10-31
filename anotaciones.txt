@@ -1,3 +1,4 @@
 -hacer el subrayado de la barra de navegacion (clase grids II minuto 19)
 -hacer seccion novedades incluyendo si el elemento está disponible o no
--
+-hacer seo de los html, utilizando title y meta description
+loading: "lazy" en imagenes
