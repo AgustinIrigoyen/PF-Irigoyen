@@ -87,7 +87,7 @@ h2 {
     justify-content: center;
     align-items: center;
     padding-bottom: 120px;
-    background-image: url("../img/taller1.jpg");
+    background-image: url("../img/portada2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -171,10 +171,12 @@ h2 {
     margin: 0 50px;
     width: 300px;
     height: auto;
-    object-fit: cover;
+    object-fit:cover;
     border: solid rgba(0, 0, 0, 0.276) 0.5px;
     border-radius: 10px;
 }
+
+
 
 .caja-wsp{
     width: 50px;
@@ -255,16 +257,14 @@ h2 {
     object-fit: cover;
     display: flex;
     justify-content: center;
-
 }
 
-@media (min-width:768px) {
-    .img.carru {
-        display: flex;
-        flex-direction: column;
-        width: 500px;
-        width: 500px;
-        object-fit: cover;
+@media (min-width: 320px){
+    .carrusel{
+        min-width: 250px;
+        min-height: auto;
+
+
     }
 }
 

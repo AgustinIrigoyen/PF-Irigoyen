@@ -80,7 +80,7 @@ h2 {
   justify-content: center;
   align-items: center;
   padding-bottom: 120px;
-  background-image: url("../img/taller1.jpg");
+  background-image: url("../img/portada2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -237,14 +237,10 @@ h2 {
   justify-content: center;
 }
 
-@media (min-width: 768px) {
-  .img.carru {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    width: 500px;
-    -o-object-fit: cover;
-       object-fit: cover;
+@media (min-width: 320px) {
+  .carrusel {
+    min-width: 250px;
+    min-height: auto;
   }
 }
 .slick-next.slick-arrow {
