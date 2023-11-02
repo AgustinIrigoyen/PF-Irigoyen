@@ -1,0 +1,41 @@
+.contacto {
+    background-color: $color-crema;
+    padding: 40px 10px 30px 10px;
+    text-align: center;
+    font-family: $ff-basker;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: $ff-basker;
+    gap: 5px;
+
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: $ff-basker;
+    gap: 5px;
+}
+
+.textoform {
+    resize: none
+}
+
+.boton {
+    background-color: $color-naranja;
+    color: black;
+    width: 100px;
+    height: 30px;
+    font-family: $ff-basker;
+    font-size: large;
+    border-radius: 20px;
+}

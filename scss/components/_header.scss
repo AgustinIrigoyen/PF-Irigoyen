@@ -1,0 +1,40 @@
+.logo {
+    background-color: $color-azul;
+    width: 100%;
+
+    &-img {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+nav ul li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: $color-naranja;
+    padding: 10px;
+    font-family: $ff-basker;
+}
+
+.item-lista:hover {
+    color: brown;
+}
+
+@media (max-width: 480px) {
+    .logo {
+        min-width: 320px;
+    }
+}
+
+@media (min-width: 480px) {
+    .logo-img {
+        width: 480px;
+    }
+}

@@ -1,0 +1,15 @@
+.bienvenida {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+    background-image: url("../img/portada2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: $ff-basker;
+}
+
+

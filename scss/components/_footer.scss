@@ -1,0 +1,77 @@
+footer {
+    background-color: $color-azul;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: min-content;
+    display: flex;
+    flex-direction: column;
+    font-family: $ff-basker;
+
+    @include mq-lg {
+        height: 40vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+}
+
+h3 {
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+section h3 footer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.mapa {
+    text-align: center;
+    padding-top: 20px;
+
+    @include mq-lg {
+        text-align: center;
+        padding-top: 0;
+    }
+
+    &-img {
+        padding-top: 10px;
+        width: fit-content;
+    }
+}
+
+.redes ul li a {
+    color: black;
+
+    & i {
+        font-size: 4rem;
+    }
+}
+
+
+@include mq-sm {
+    .redes {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+
+
+@include mq-lg {
+    .redes div ul li {
+        margin-bottom: 25px;
+    }
+}

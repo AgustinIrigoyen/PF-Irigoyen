@@ -1,0 +1,33 @@
+.carrusel {
+    width: 30vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-content: center;
+
+    @include mq-sm{
+        min-width: 250px;
+        min-height: auto;
+    }
+}
+
+.carrusel img {
+    width: 100%;
+    border: solid rgba(0, 0, 0, 0.276) 0.5px;
+    border-radius: 10px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+
+
+.slick-next.slick-arrow {
+    background-color: rgba(0, 0, 0, 0.552);
+    border-radius: 10px;
+}
+
+.slick-prev.slick-arrow {
+    background-color: rgba(0, 0, 0, 0.552);
+    border-radius: 10px;
+}

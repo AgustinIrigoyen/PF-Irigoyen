@@ -1,0 +1,25 @@
+.sobre-nosotros {
+    background-color: $color-crema;
+    font-family: $ff-basker;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+
+    &-texto {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: $color-crema;
+        padding: 10px 10px;
+    }
+    
+}
+
+
+@include mq-lg {
+    .sobre-nosotros-texto {
+        margin-left: 300px;
+        margin-right: 300px;
+        padding-bottom: 20px;
+    }
+}

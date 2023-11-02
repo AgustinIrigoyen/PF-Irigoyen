@@ -1,0 +1,74 @@
+$color-azul: rgba(25, 130, 171, 0.725);
+$color-naranja: rgba(211, 127, 38, 0.692);
+$color-crema: antiquewhite;
+
+$ff-basker: 'Libre Baskerville', serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h2 {
+    background-color: $color-azul;
+    text-align: center;
+    background-position: center;
+    color: black;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.caja-wsp {
+    width: 70px;
+    height: 70px;
+    background-color: $color-naranja;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+
+    & i {
+        color: black;
+        font-size: 2.5rem;
+    }
+}
+
+@mixin mq-sm{
+    @media (min-width: 320px) {
+        @content;
+    }
+}
+
+@mixin mq-md{
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin mq-lg{
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
