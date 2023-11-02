@@ -1,4 +1,4 @@
-$color-azul: rgba(25, 130, 171, 0.725);
+$color-azul: rgba(25, 130, 171, 0.815);
 $color-naranja: rgba(211, 127, 38, 0.692);
 $color-crema: antiquewhite;
 
@@ -32,6 +32,21 @@ h2 {
     align-items: center;
 }
 
+h2{
+    opacity: 0;
+    animation: aparecer 1s ease-in forwards;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 a {
     text-decoration: none;
     color: black;
@@ -53,6 +68,10 @@ a {
         color: black;
         font-size: 2.5rem;
     }
+}
+
+.caja-wsp:hover{
+    filter: drop-shadow(1px 2px 2px);
 }
 
 @mixin mq-sm{
