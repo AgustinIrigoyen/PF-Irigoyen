@@ -1,4 +1,4 @@
-$color-azul: rgba(25, 130, 171, 0.815);
+$color-azul: rgba(25, 130, 171, 0.764);
 $color-naranja: rgba(211, 127, 38, 0.692);
 $color-crema: antiquewhite;
 
@@ -32,7 +32,7 @@ h2 {
     align-items: center;
 }
 
-h2{
+h2 {
     opacity: 0;
     animation: aparecer 1s ease-in forwards;
 }
@@ -41,6 +41,7 @@ h2{
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -70,23 +71,23 @@ a {
     }
 }
 
-.caja-wsp:hover{
+.caja-wsp:hover {
     filter: drop-shadow(1px 2px 2px);
 }
 
-@mixin mq-sm{
+@mixin mq-sm {
     @media (min-width: 320px) {
         @content;
     }
 }
 
-@mixin mq-md{
+@mixin mq-md {
     @media (min-width: 768px) {
         @content;
     }
 }
 
-@mixin mq-lg{
+@mixin mq-lg {
     @media (min-width: 1200px) {
         @content;
     }
