@@ -76,6 +76,7 @@ section h3 footer {
 
 @include mq-lg {
     .redes div ul li {
+        margin-top: 20px;
         margin-bottom: 25px;
     }
 }

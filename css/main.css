@@ -177,6 +177,7 @@ section h3 footer {
 }
 @media (min-width: 1200px) {
   .redes div ul li {
+    margin-top: 20px;
     margin-bottom: 25px;
   }
 }
