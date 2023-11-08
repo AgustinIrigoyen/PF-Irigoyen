@@ -1,1 +1,0 @@
--hacer seccion novedades incluyendo si el elemento está disponible o no

@@ -6,7 +6,7 @@
     margin: 0 auto;
     align-content: center;
 
-    @include mq-sm{
+    @include mq-sm {
         min-width: 250px;
         min-height: auto;
     }
@@ -30,4 +30,13 @@
 .slick-prev.slick-arrow {
     background-color: rgba(0, 0, 0, 0.552);
     border-radius: 10px;
+}
+
+.producto1 {
+    font-family: $ff-basker;
+    padding-top: 10px;
+}
+
+.link-novedades {
+    color: blue;
 }

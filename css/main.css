@@ -251,6 +251,15 @@ section h3 footer {
   border-radius: 10px;
 }
 
+.producto1 {
+  font-family: "Libre Baskerville", serif;
+  padding-top: 10px;
+}
+
+.link-novedades {
+  color: blue;
+}
+
 .galeria-img {
   display: flex;
   flex-direction: column;
