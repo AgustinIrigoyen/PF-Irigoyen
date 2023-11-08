@@ -261,6 +261,10 @@ section h3 footer {
   color: blue;
 }
 
+.bi-check2-circle {
+  color: rgb(18, 159, 18);
+}
+
 .galeria-img {
   display: flex;
   flex-direction: column;
