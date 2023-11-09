@@ -10,7 +10,7 @@ ol {
 }
 
 h2 {
-  background-color: rgba(25, 130, 171, 0.93);
+  background-color: rgba(25, 130, 171, 0.977);
   text-align: center;
   background-position: center;
   color: black;
@@ -69,7 +69,7 @@ a {
 }
 
 .logo {
-  background-color: rgba(25, 130, 171, 0.93);
+  background-color: rgba(25, 130, 171, 0.977);
   width: 100%;
 }
 .logo-img {
@@ -106,7 +106,7 @@ nav ul li {
   }
 }
 footer {
-  background-color: rgba(25, 130, 171, 0.93);
+  background-color: rgba(25, 130, 171, 0.977);
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
