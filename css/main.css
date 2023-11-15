@@ -335,28 +335,28 @@ section h3 footer {
   text-align: center;
   height: 1.5rem;
   border-color: rgba(25, 130, 171, 0.854);
-  border-radius: 3px;
+  border-radius: 6px;
 }
 
 #mail {
   text-align: center;
   height: 1.5rem;
   border-color: rgba(25, 130, 171, 0.854);
-  border-radius: 3px;
+  border-radius: 6px;
 }
 
 #asunto {
   text-align: center;
   height: 1.5rem;
   border-color: rgba(25, 130, 171, 0.854);
-  border-radius: 3px;
+  border-radius: 6px;
   width: 8rem;
 }
 
 #texto {
   text-align: center;
   border-color: rgba(25, 130, 171, 0.854);
-  border-radius: 3px;
+  border-radius: 6px;
 }
 
 .textarea {
@@ -384,4 +384,15 @@ section h3 footer {
 }
 .boton:hover {
   color: whitesmoke;
+}
+
+@media (min-width: 768px) {
+  .textoform {
+    width: 25rem;
+  }
+}
+@media (min-width: 1200px) {
+  .textoform {
+    width: 30rem;
+  }
 }/*# sourceMappingURL=main.css.map */

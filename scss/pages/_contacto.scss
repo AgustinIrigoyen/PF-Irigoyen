@@ -14,32 +14,33 @@
     font-family: $ff-basker;
     gap: 5px;
 }
-#campo-nombre{
+
+#campo-nombre {
     text-align: center;
     height: 1.5rem;
     border-color: $color-azul;
-    border-radius: 3px;
+    border-radius: 6px;
 }
 
-#mail{
+#mail {
     text-align: center;
     height: 1.5rem;
     border-color: $color-azul;
-    border-radius: 3px;
+    border-radius: 6px;
 }
 
-#asunto{
+#asunto {
     text-align: center;
     height: 1.5rem;
     border-color: $color-azul;
-    border-radius: 3px;
+    border-radius: 6px;
     width: 8rem;
 }
 
-#texto{
+#texto {
     text-align: center;
     border-color: $color-azul;
-    border-radius: 3px;
+    border-radius: 6px;
 }
 
 .textarea {
@@ -64,7 +65,20 @@
     font-family: $ff-basker;
     font-size: large;
     border-radius: 20px;
-    &:hover{
+
+    &:hover {
         color: whitesmoke;
+    }
+}
+
+@include mq-md{
+    .textoform{
+        width: 25rem;
+    }
+}
+
+@include mq-lg{
+    .textoform{
+        width: 30rem;
     }
 }
