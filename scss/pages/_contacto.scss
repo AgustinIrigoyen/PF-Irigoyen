@@ -13,7 +13,33 @@
     padding-bottom: 15px;
     font-family: $ff-basker;
     gap: 5px;
+}
+#campo-nombre{
+    text-align: center;
+    height: 1.5rem;
+    border-color: $color-azul;
+    border-radius: 3px;
+}
 
+#mail{
+    text-align: center;
+    height: 1.5rem;
+    border-color: $color-azul;
+    border-radius: 3px;
+}
+
+#asunto{
+    text-align: center;
+    height: 1.5rem;
+    border-color: $color-azul;
+    border-radius: 3px;
+    width: 8rem;
+}
+
+#texto{
+    text-align: center;
+    border-color: $color-azul;
+    border-radius: 3px;
 }
 
 .textarea {
@@ -27,7 +53,7 @@
 }
 
 .textoform {
-    resize: none
+    resize: none;
 }
 
 .boton {
