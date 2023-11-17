@@ -210,7 +210,7 @@ section h3 footer {
   padding-bottom: 30px;
   text-align: center;
 }
-.sobre-nosotros-texto {
+.sobre-nosotros__texto {
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
@@ -219,7 +219,7 @@ section h3 footer {
 }
 
 @media (min-width: 1200px) {
-  .sobre-nosotros-texto {
+  .sobre-nosotros__texto {
     margin-left: 300px;
     margin-right: 300px;
     padding-bottom: 20px;
