@@ -71,14 +71,14 @@
     }
 }
 
-@include mq-md{
-    .textoform{
+@include mq-md {
+    .textoform {
         width: 25rem;
     }
 }
 
-@include mq-lg{
-    .textoform{
+@include mq-lg {
+    .textoform {
         width: 30rem;
     }
 }
